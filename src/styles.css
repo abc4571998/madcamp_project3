@@ -1,0 +1,312 @@
+.headerMain {
+  background-image: url(./img/background_shirt.jpg);
+  background-size: cover;
+  height: 45vh;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.headerSlogun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.menubar-menu {
+  text-decoration: none;
+  color: #5b5b6e;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.selectStyle {
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  /* flex-direction: column; */
+}
+.selectStyle-menu {
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 24%;
+}
+
+.selectStyle-menu__title {
+  font-family: "Black Han Sans", sans-serif;
+  background-color: #5e657a;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: whitesmoke;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.selectStyle-menu__content {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(161, 168, 181);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tag-button {
+  background-color: #9195a0;
+  margin: 10px auto;
+}
+
+.tag-button:active {
+  background-color: beige;
+}
+
+.tag-button__clear {
+  background-color: rgb(253, 248, 241);
+  width: 100px;
+}
+
+.btn {
+  box-sizing: border-box;
+  padding: 0px 5px;
+  background-color: transparent;
+  border: 2px solid #404656;
+  border-radius: 0.6em;
+  color: #404656;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.btnEffect {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.btnEffect:hover {
+  box-shadow: 0 0 40px 40px #404656 inset;
+}
+
+.btnEffect__clear {
+  border: 2px solid black;
+  width: auto;
+  color: black;
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.btnEffect__clear:hover {
+  box-shadow: 0 0 40px 40px black inset;
+}
+
+.Search-tag {
+  display: flex;
+}
+
+.selectStyle-menu__content-light {
+  background-color: #bbc7dd;
+}
+
+.selectStyle-menu__title-light {
+  background-color: #7986a5;
+}
+.btn__select-Div {
+  display: flex;
+}
+.btn__select {
+  margin: 5px 0px;
+  box-sizing: border-box;
+  padding: 0px 5px;
+  background-color: transparent;
+  border-radius: 0.6em;
+  color: #404656;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.showStyle {
+  margin-top: 40px;
+}
+
+.showStyleSection {
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.showStyle-div {
+  height: 200px;
+  display: flex;
+}
+
+.showStyleSection img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+.showStyle-content {
+  background-color: #9ea5b2;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.showStyle-content button {
+  margin: 10px 10px;
+}
+.saveStyle {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.saveStyle button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn__save {
+  border-color: #5d657a;
+  color: whitesmoke;
+  box-shadow: 0 0 40px 40px #203466 inset, 0 0 0 0 #203466;
+  transition: all 150ms ease-in-out;
+}
+
+.btn__save:hover {
+  color: #203466;
+  box-shadow: 0 0 10px 0 #203466 inset, 0 0 10px 4px #203466;
+}
+
+.showImage {
+  width: 25%;
+  height: 400px;
+}
+
+.loginSession {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.loginTitle {
+  background-color: #697ca8;
+  width: 10%;
+}
+.loginDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background-color: whitesmoke;
+  padding: 60px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.loginDiv span {
+  align-items: flex-start;
+  width: 70%;
+  font-family: "Lato", sans-serif;
+}
+
+#loginId,
+#loginPassword {
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: #dee8fb;
+  width: 70%;
+}
+
+.loginButton {
+  width: 40%;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.loginButton {
+  z-index: 2;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border: 2px solid #000;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+.loginButton:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.loginButton:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  color: #fff;
+}
+.loginButton:hover:after {
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  background: #000;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+}
